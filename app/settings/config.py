@@ -1,0 +1,1 @@
+ADMIN_ROLES = ["admin", "administrator", "super"]
