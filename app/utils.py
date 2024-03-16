@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN_EXPIRATION_TIME_MINUTES = os.getenv("TOKEN_EXPIRATION_TIME_MINUTES")
+TOKEN_EXPIRATION_TIME_MINUTES = int(os.getenv("TOKEN_EXPIRATION_TIME_MINUTES"))
 SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = os.getenv("ALGORITHM")
 
